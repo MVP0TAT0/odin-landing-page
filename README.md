@@ -1,6 +1,6 @@
 # Project: Landing page
 
-A responsive landing page built as part of The Odin Project – Foundations curriculum.
+A landing page built as part of The Odin Project – Foundations curriculum.
 The goal of this project is to recreate a full webpage layout from a provided design, focusing on layout, spacing, and basic styling rather than pixel-perfect accuracy.
 
 This project demonstrates core front-end skills including:
