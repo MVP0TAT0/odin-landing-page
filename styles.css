@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0px;
+}
+
 /* Header */
 
 .header,
@@ -63,26 +67,137 @@ a {
 .hero h1 {
   font-size: 48px;
   color: #f9faf8;
+  margin-bottom: 0px;
+}
+.hero p {
+  margin-top: 0px;
+  margin-bottom: 12px;
 }
 
 .hero-content {
-    max-width: 50%;
+  max-width: 50%;
 }
 
-.hero img {
-    width: 30vw;
+.hero-image {
+  height: 200px;
+  width: 300px;
+  background: url("./images/hero-img.jpg") 50% 50% no-repeat;
+  background-size: 100%;
 }
 
 button {
-    background-color: #3882F6;
-    font-weight: bold;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 10px;
-    color: #e5e7eb;
+  background-color: #3882f6;
+  font-weight: bold;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 8px;
+  color: #e5e7eb;
 }
 
 button:hover {
-    background-color: #e5e7eb;
-    color: #3882F6;
+  background-color: #e5e7eb;
+  color: #3882f6;
+}
+
+/* Information section */
+
+.information {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column nowrap;
+  margin-bottom: 100px;
+  padding: 0px 200px;
+}
+
+.information h2 {
+  margin: 50px 0px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.card-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.cards {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 150px;
+  padding: 10px;
+}
+
+.cards p {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+/* Information section | Card IDs */
+
+#git.card-image {
+  background: url("https://www.20i.com/blog/wp-content/uploads/2022/08/git-blog-header.png")
+    50% 50% no-repeat;
+  background-size: 180%;
+  border-radius: 15%;
+  width: 150px;
+  height: 150px;
+}
+
+#html.card-image {
+  background: url("https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg")
+    50% 20% no-repeat;
+  background-size: 180%;
+  border-radius: 15%;
+  width: 150px;
+  height: 150px;
+}
+
+#css.card-image {
+  background: url("https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png")
+    50% 40% no-repeat;
+  background-size: 180%;
+  border-radius: 15%;
+  width: 150px;
+  height: 150px;
+}
+
+#javascript.card-image {
+  background: url("https://www.datocms-assets.com/48401/1627664298-javascript.png?fit=max&w=900")
+    50% 50% no-repeat;
+  background-size: 230%;
+  border-radius: 15%;
+  width: 150px;
+  height: 150px;
+}
+
+/* Quote */
+
+.quote-section {
+  background-color: #E5E6EB;
+  padding: 100px 240px;
+}
+
+#quote-text {
+  color: #1F2937;
+  font-weight: 300;
+  font-size: 36px;
+}
+
+#quote-author {
+  font-size: 24px;
+  text-align: right;
 }
