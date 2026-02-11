@@ -17,4 +17,11 @@ Some content and images may be customized or substituted to personalize the page
 
 The landing page should look similar to this:
 
-![landing page preview](images/preview.png)
+![landing page preview](./images/preview.png)
+
+
+# Current preview
+
+The current code displays the following:
+
+![landing page in progress](./images/current-preview.png)
