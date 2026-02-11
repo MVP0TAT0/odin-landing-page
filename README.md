@@ -20,8 +20,8 @@ The landing page should look similar to this:
 ![landing page preview](./images/preview.png)
 
 
-# Current preview
+# Current preview (Finalized)
 
 The current code displays the following:
 
-![landing page in progress](./images/current-preview.png)
+![landing page in progress](./images/finalized-preview.png)

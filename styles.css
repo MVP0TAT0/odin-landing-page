@@ -26,6 +26,7 @@ p {
 .hero,
 .footer {
   background-color: #1f2937;
+  color: #e5e7eb;
 }
 
 .header {
@@ -52,40 +53,54 @@ p {
   font-size: 18px;
 }
 
+.header a:hover {
+  color:#3882f6;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 25px 0px;
+}
+
 /* Hero */
 
 .hero {
-  padding: 0px 200px 50px;
-  color: #e5e7eb;
+  padding: 100px 200px;
   font-size: 18px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
+  gap: 75px;
 }
 
 .hero h1 {
   font-size: 48px;
   color: #f9faf8;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 .hero p {
   margin-top: 0px;
   margin-bottom: 12px;
+  
 }
 
 .hero-content {
-  max-width: 50%;
+  width: 50%;
 }
 
 .hero-image {
-  height: 200px;
-  width: 300px;
-  background: url("./images/hero-img.jpg") 50% 50% no-repeat;
-  background-size: 100%;
+  flex: 1;
 }
 
-button {
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.sign-up {
   background-color: #3882f6;
   font-weight: bold;
   padding: 8px 25px;
@@ -94,7 +109,7 @@ button {
   color: #e5e7eb;
 }
 
-button:hover {
+.sign-up:hover {
   background-color: #e5e7eb;
   color: #3882f6;
 }
@@ -188,16 +203,54 @@ h2 {
 
 .quote-section {
   background-color: #E5E6EB;
-  padding: 100px 240px;
+  padding: 100px 24%;
 }
 
 #quote-text {
   color: #1F2937;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 #quote-author {
   font-size: 24px;
   text-align: right;
+}
+
+/* CTA */
+.cta-section {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  color: #E5E6EB;
+  align-items: center;
+  padding: 50px 50px;
+  margin: 100px 200px;
+  border-radius: 8px;
+  width: 50vw;
+}
+
+.cta-button {
+  background-color: #3882f6;
+  border-style: solid;
+  border-color: #E5E6EB;
+  border-width: 2px;
+  color: #E5E6EB;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 8px 25px;
+}
+
+.cta-button:hover {
+  background-color: #E5E6EB;
+  color: #3882f6;
+}
+
+h3 {
+  margin: 0px;
 }
